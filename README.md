@@ -79,6 +79,15 @@ bonfire_tuner_full.bat <投影仪IP>:<端口>
 
 编译需要 Android SDK（build-tools + platform 34），依赖搜狗 TV 输入法 `com.sohu.inputmethod.sogou.tv`。
 
+## 研究记录
+
+想知道这些功能**是怎么研究出来的**、或者想在别的机型上复现/扩展？见 [RESEARCH.md](RESEARCH.md)。里面逐项记录了定位思路和验证方法，包括：
+
+- 语音键桥接的完整逆向过程（反汇编 → 定位真实键码 → 定位输入态判定 → 双场景验证）
+- 投屏被误禁用、设置键接管、屏保不生效等问题的排查方法
+- 一张「目标 → 方法」的可复用命令速查表
+- 自研桥接 APK 的编译流程
+
 ## 致谢与说明
 
 - 原始 Bonfire OS Tuner 工具包作者
