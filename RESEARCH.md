@@ -195,7 +195,7 @@ adb shell settings put global stay_on_while_plugged_in 0
 
 ## 5. RU 插件精简与安装冲突
 
-按真机实际安装情况把 `rupack/` 从十几个 APK 精简到 4 个：SmartTube、Emotn Store、TVBro、X-plore。删除 NUM / projectMTV / TorrServe / RuStore TV。
+按真机实际安装情况把 `rupack/` 从十几个 APK 精简到 3 个：SmartTube、Emotn Store、TVBro。删除 NUM / projectMTV / TorrServe / RuStore TV。
 
 **安装冲突的判读**（第 6 项日志里常见，属正常，不用修）：
 - Emotn Store：签名不匹配（系统预装版与包内版签名不同）

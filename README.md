@@ -13,7 +13,7 @@
 - 配置 **Google TV 屏保**（Google Backdrop），默认 5 分钟熄屏
 - 安装 **JMGO 设置克隆版**，可通过物理设置键拦截打开
 - 禁用/恢复中文预装应用，**保护投屏**（`com.jmgo.holacast.x` 不被禁用，且有自愈）
-- 安装 RU 插件（SmartTube / Emotn Store / TVBro / X-plore）
+- 安装 RU 插件（SmartTube / Emotn Store / TVBro）
 - 安装 `userpack/` 中的用户 APK
 - 修复用户应用/应用商店权限
 - 关闭 JMGO OTA 更新（可逆）
@@ -91,7 +91,7 @@ bonfire_tuner_full.bat <投影仪IP>:<端口>
 ## 致谢与说明
 
 - 原始 Bonfire OS Tuner 工具包作者
-- Google（Katniss / TV Backdrop）、SmartTube、TVBro、X-plore、Emotn Store 等应用作者
+- Google（Katniss / TV Backdrop）、SmartTube、TVBro、Emotn Store 等应用作者
 - `settings/` 与 `screensaver/` 中的部分 APK 提取自 JMGO 原厂固件，版权归 JMGO 所有。本仓库仅用于个人学习与技术交流，**请在下载后 24 小时内删除，勿用于商业用途**。若你是相关权利人并要求下架，请提交 Issue。
 
 ## 免责声明
