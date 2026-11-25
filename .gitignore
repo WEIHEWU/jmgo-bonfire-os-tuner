@@ -1,0 +1,5 @@
+.DS_Store
+.adb_last_connection
+__pycache__/
+*.pyc
+*.log
